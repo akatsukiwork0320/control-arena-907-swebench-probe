@@ -23,6 +23,10 @@ Scope & Limits:
   - Credits @evalevanto (#907) for reporting the inverted side tests and @Rogan-Inglis
     (#911) for fixing offline pytest availability.
 """
+# Reconstructed/mutated Django functions retain Django's BSD 3-Clause terms.
+# ControlArena-derived test source retains its upstream MIT notice.
+# See THIRD_PARTY_NOTICES.md for attribution, revisions, and full license texts.
+
 import json
 import platform
 import shutil
