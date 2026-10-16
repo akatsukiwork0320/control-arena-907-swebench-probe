@@ -1,0 +1,2 @@
+# Preserve exact file bytes across git checkouts.
+* -text

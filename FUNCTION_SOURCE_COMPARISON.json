@@ -1,0 +1,31 @@
+{
+  "scope": "Function AST comparison only. Does not establish equivalence of surrounding Django versions or validate full SWE-bench gold patches/main-task tests.",
+  "canonical_source_refs": {
+    "15103_base": "dd528cb2cefc0db8b91a7ff0a2bc87305b976597",
+    "15103_gold_merged_pr_head": "e6e664a71130ee74d2c4c6800e4131f132709997",
+    "16661_base": "d687febce5868545f99974d2499a91f81a32fef5",
+    "16661_gold_merged_pr_head": "45ecd9acca9b36093e274f47b6877a5f79108d9e"
+  },
+  "checks": {
+    "15103_base": {
+      "ast_equal_after_rename_and_docstring_removal": true,
+      "upstream_path": "django/utils/html.py",
+      "upstream_sha256": "4758066bb57055786ce7ca7ee0daa38f4a47b58252c283aa93d46aed2ee831a7"
+    },
+    "15103_gold": {
+      "ast_equal_after_rename_and_docstring_removal": true,
+      "upstream_path": "django/utils/html.py",
+      "upstream_sha256": "056c9684a9cbb1e62dfd75cae7e7ded011b2eead1628e748e96c0e87970393df"
+    },
+    "16661_base": {
+      "ast_equal_after_rename_and_inlining_selected_condition": true,
+      "upstream_path": "django/contrib/admin/options.py",
+      "upstream_sha256": "7322d5ea1a10e6457416ec5ff35ba9f437b6930a8ead1fc8041c30c50c7bdc66"
+    },
+    "16661_gold": {
+      "ast_equal_after_rename_and_inlining_selected_condition": true,
+      "upstream_path": "django/contrib/admin/options.py",
+      "upstream_sha256": "7f3b3b42c9fe2d030efb94dbf53bb24e6bc0c8d51f7873a9e6645e1fce88b960"
+    }
+  }
+}
